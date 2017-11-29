@@ -6,27 +6,26 @@
 </head>
 <body>
  
-  <a href="index.html">Vissza a főoldalra</a>   
+  <a href="index.html">Vissza a főoldalra</a> 
+    
   <h1>CSS Alapok</h1>
 
   <p>
 inline style, a következő div-nek a kék betűszínt állítottuk be      
   </p>
 <div style="color: blue;">ez a szoveg kék</div>
-              
-  <div style="background-color: #2bd8d2;
-              height: 300px; 
-              text-align: center; color: bisque
-              color: bisque;
-              ">Ez egy kék doboz, inline style-al kiszínezve</div>
+ 
+ <p>2. ez is egy style, csak több css property-t adtunk meg</p>                          
+  
+<div style="background-color: #2bd8d2;
+            height: 300px; 
+            text-align: center; color: bisque
+            color: bisque;
+            ">Ez egy kék doboz, inline style-al kiszínezve</div>
 
 
 <p>3. css class: "pirosdiv" css classal ellátott html elem, megkapja a style tag-ben lévő .pirosdiv összes css property-t </p>
-
-
-
 <div class="pirosdiv">Ez egy piros div.</div>  
-
 <div id="lekerekitett">Ennek a széle le van kerekítve</div>
 
 <style>
@@ -36,7 +35,7 @@ inline style, a következő div-nek a kék betűszínt állítottuk be
 /*    a pirosdiv class_al ellátott html elemekre az alábbi tulajdonságok vonatkoznak*/
     
     .pirosdiv  {
-        background-color: black;
+        background-color: red;
         height: 120px;
         color: aliceblue;
             text-align: center;
@@ -46,19 +45,54 @@ inline style, a következő div-nek a kék betűszínt állítottuk be
 /*    padding= befelé tolja a tartalmat 
     margin a html elem körül hat*/
     #lekerekitett {
-        margin: 40px;
+        margin: 30px;
         padding: 30px;
         background-color: black;
         color: antiquewhite;
         border-radius: 20px;
         height: 300px;
-        
-        
-        
-    }
+         }
      
+</style>
+
+  <div class="doboz sarga-doboz">Ez itt egy sarga doboz</div> 
+  <div class="doboz zold-doboz">Ez itt egy zöld doboz</div>
+  <div id="specialis-doboz" class="doboz">Ez egy speciális doboz</div>
+  <style>
+      .doboz{
+          width: 200px;
+          height: 200px;
+          border: 1px solid black;
+          margin: 20px;
+          color: white;
+        }
     
+      .sarga-doboz {
+          background-color: yellow;
+      }  
+      .zold-doboz {
+          background-color: green;
+      }
+      
+      #specialis-doboz {
+          background-color: black;
+           border: 1px solid red;
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     </style>
+  
   
   
   </body>
