@@ -29,7 +29,10 @@
 .tartalom   {
     background-color: lightgrey;
     height: 1000px;  /* csak a scrollbar megjelenése végett */
-     
+/*    bitonyos css properity-ket nem ajánlott használni, mert nem minden böngésző ismeri. Ezt a caniuse.com weboldalon ellenőrizhetjük*/
+    zoom: 0.1; 
+    
+    
     
 }
 
