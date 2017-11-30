@@ -1,0 +1,55 @@
+/*csslint order-alphabetical: false*/
+
+.fo-menu {
+    height: 80px;
+    background-color: aqua;
+    }
+
+.menupont {
+    margin: 10px;
+    height: 40px;
+/*
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    Következő sor ugyan ez csak 1 sorban 
+*/
+    margin: 10px 0 10px 10px;  /*fölül,jobbra,alul,balra */
+    
+    background-color: blueviolet;
+    color: floralwhite;
+    display: inline-block;
+/*
+    padding-top: 22px; 
+    padding-left: 10;
+    padding-right: 10px;
+*/
+    padding: 22px 10px 0 10px;
+    }
+.tartalom   {
+    background-color: lightgrey;
+    height: 1000px;  /* csak a scrollbar megjelenése végett */
+     
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
