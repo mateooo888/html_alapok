@@ -5,19 +5,19 @@
     background-color: aqua;
     }
 
-.menupont {
-    margin: 10px;
+/*ez a fomenu classon beluli menupont classokat választja ki*/
+.fo-menu .menupont {
     height: 40px;
 /*
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     Következő sor ugyan ez csak 1 sorban 
-*/
+    */
     margin: 10px 0 10px 10px;  /*fölül,jobbra,alul,balra */
-    
     background-color: blueviolet;
     color: floralwhite;
+/*    ez a css properity megváltoztatja a html elem alapéértelmezett működését, jelen esetben egy block szintű elem div-ből inline elemet csinál, de a block tulajdonságait is megőrzi, azaz reagálni fog az elem a width, és jeigjt paraméterekte*/
     display: inline-block;
 /*
     padding-top: 22px; 
@@ -26,15 +26,31 @@
 */
     padding: 22px 10px 0 10px;
     }
-.tartalom   {
-    background-color: lightgrey;
-    height: 1000px;  /* csak a scrollbar megjelenése végett */
-/*    bitonyos css properity-ket nem ajánlott használni, mert nem minden böngésző ismeri. Ezt a caniuse.com weboldalon ellenőrizhetjük*/
-    zoom: 0.1; 
-    
-    
+
+.al-menu {
+    margin-top: 20px;
+    float: right;
     
 }
+
+.al-menu .menupont {
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+/*ha a menupont fölé visszuk az egeret, akkor az bekékül az adott menüpont*/
+
+.al-menu .menupont:hover {
+    color: blue;
+}
+
+.tartalom   {
+    background-color: rosybrown;
+    margin-top: 40px;
+    height: 1000px;  /* csak a scrollbar megjelenése végett */
+/*    bitonyos css properity-ket nem ajánlott használni, mert nem minden böngésző ismeri. Ezt a caniuse.com weboldalon ellenőrizhetjük*/
+     }
+
 
 
 
