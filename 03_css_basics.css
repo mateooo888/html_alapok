@@ -42,6 +42,7 @@
 
 .al-menu .menupont:hover {
     color: blue;
+    cursor: pointer;
 }
 
 .tartalom   {
@@ -51,7 +52,16 @@
 /*    bitonyos css properity-ket nem ajánlott használni, mert nem minden böngésző ismeri. Ezt a caniuse.com weboldalon ellenőrizhetjük*/
      }
 
-
+.fixed-doboz{
+    width: 100%;
+    height: 50px;
+    background-color: darkblue;
+    color: aqua;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
 
 
 

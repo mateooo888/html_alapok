@@ -1,0 +1,81 @@
+/*csslint order-alphabetical: false*/
+body {
+    
+    height: 1200px;
+}
+
+.fixed-doboz{
+    width: 100%;
+    height: 50px;
+    background-color: darkblue;
+    color: aqua;
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+    
+}
+
+.zold-doboz, .narancs-doboz, .kek-doboz, .piros-doboz {color: whitesmoke}
+
+.zold-doboz{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+   
+}
+
+
+.narancs-doboz{
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    position: static;
+}
+
+
+.kek-doboz{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    position: relative;
+    left: 250px;
+    top: -50px;
+}
+
+.piros-doboz{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    left: 200px;
+    
+}
+
+.piros-doboz:hover > .fekete-doboz{
+    display: block;
+    
+}
+
+.fekete-doboz{
+    color: antiquewhite;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 30px;
+    display: none;
+    top: 30px;
+    
+    
+}
+
+
+.lila-doboz{
+    width: 300px;
+    height: 300px;
+    background-color: purple;
+    
+}
