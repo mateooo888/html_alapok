@@ -7,8 +7,8 @@ body {
 .fixed-doboz{
     width: 100%;
     height: 50px;
-    background-color: darkblue;
-    color: aqua;
+    background-color: lightblue;
+    color: black;
     position: fixed;
     top: 0;
     right: 0;
